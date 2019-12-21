@@ -1,0 +1,142 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    
+    line-height: 1.5em;
+}
+
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    
+    text-decoration: none;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+}
+
+    .row > * {
+        box-sizing: border-box;
+    }
+	
+    .row.aln-left {
+        justify-content: flex-start;
+    }
+
+    .row.aln-center {
+        justify-content: center;
+    }
+
+    .row.aln-right {
+        justify-content: flex-end;
+    }
+
+    .row.aln-top {
+        align-items: flex-start;
+    }
+
+    .row.aln-middle {
+        align-items: center;
+    }
+
+    .row.aln-bottom {
+        align-items: flex-end;
+    }
+
+    .row > .imp {
+        order: -1;
+    }
+
+    .row > .col-1 {
+        width: 8.3333333333%;
+    }
+    .row > .col-2 {
+        width: 16.6666666667%;
+    }
+    
+		.row > .col-3 {
+			width: 25%;
+		}
+        .row > .col-4 {
+			width: 33.3333333333%;
+        }
+        .row > .col-5 {
+			width: 41.6666666667%;
+        }
+        .row > .col-6 {
+			width: 50%;
+		}
+
+
+		.row > .col-7 {
+			width: 58.3333333333%;
+        }
+        .row > .col-8 {
+			width: 66.6666666667%;
+        }
+        
+		.row > .col-9 {
+			width: 75%;
+		}
+
+
+
+
+        
+		
+
+		.row > .col-10 {
+			width: 83.3333333333%;
+		}
+
+		
+
+		.row > .col-11 {
+			width: 91.6666666667%;
+		}
+
+		
+		.row > .col-12 {
+			width: 100%;
+		}
+
+		.image {
+            display: inline-block;
+            border: 0;
+        }
+    
+            .image img {
+                display: block;
+                width: 100%;
+            }
+            .image.avatar48 {
+                width: 48px;
+                height: 48px;
+            }
+    
+                .image.avatar48 img {
+                    width: 48px;
+                    height: 48px;
+                }
+    
+            .image.fit {
+                display: block;
+                width: 100%;
+            }
+    
+            .image.featured {
+                display: block;
+                width: 100%;
+            }
+            .icon {
+                text-decoration: none;
+            }
+        
